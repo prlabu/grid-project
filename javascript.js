@@ -7,6 +7,7 @@ $(document).ready(function () {
 	div1.style.height = '50px';
 	div1.style.width = '50px';
 	div1.style.background = 'red';
+	document.body.appendChild(div1);
 	
 
 	for (var i = 16; i > 0; i--) {
